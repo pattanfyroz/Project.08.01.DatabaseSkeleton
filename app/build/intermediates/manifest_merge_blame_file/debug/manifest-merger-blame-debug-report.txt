@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.techhue.DatabaseSkeleton"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk android:minSdkVersion="27" />
+7-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+9-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:7:5-81
+9-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:7:22-78
+10    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+10-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:8:5-75
+10-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:8:22-72
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:9:5-80
+11-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:9:22-77
+12
+13    <application
+13-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:11:5-55:19
+14        android:debuggable="true"
+15        android:icon="@drawable/ic_launcher"
+15-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:12:9-45
+16        android:label="@string/app_name"
+16-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:13:9-41
+17        android:testOnly="true" >
+18        <activity
+18-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:14:9-22:20
+19            android:name="com.techhue.DatabaseSkeleton.DatabaseSkeletonActivity"
+19-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:15:13-53
+20            android:label="@string/app_name" >
+20-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:16:13-45
+21            <intent-filter>
+21-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:17:13-21:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:18:17-69
+22-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:18:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:20:17-77
+24-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:20:27-74
+25            </intent-filter>
+26        </activity>
+27
+28        <!-- Listing 8-24: Registering a search results Activity -->
+29        <activity
+29-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:25:9-38:20
+30            android:name="com.techhue.DatabaseSkeleton.DatabaseSkeletonSearchActivity"
+30-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:26:13-59
+31            android:label="Element Search"
+31-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:27:13-43
+32            android:launchMode="singleTop" >
+32-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:28:13-43
+33            <intent-filter>
+33-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:29:13-33:29
+34                <action android:name="android.intent.action.SEARCH" />
+34-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:30:17-71
+34-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:30:25-68
+35
+36                <category android:name="android.intent.category.DEFAULT" />
+36-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:32:17-76
+36-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:32:27-73
+37            </intent-filter>
+38
+39            <meta-data
+39-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:35:13-37:54
+40                android:name="android.app.searchable"
+40-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:36:17-54
+41                android:resource="@xml/searchable" />
+41-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:37:17-51
+42        </activity>
+43
+44        <!-- Listing 8-26: Setting a default search result Activity for an application -->
+45        <meta-data
+45-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:41:9-43:63
+46            android:name="android.app.default_searchable"
+46-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:42:13-58
+47            android:value=".DatabaseSkeletonSearchActivity" />
+47-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:43:13-60
+48
+49        <provider
+49-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:45:9-47:74
+50            android:name="com.techhue.DatabaseSkeleton.MyContentProvider"
+50-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:46:13-46
+51            android:authorities="com.techhue.skeletondatabaseprovider" />
+51-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:47:13-71
+52        <provider
+52-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:48:9-50:84
+53            android:name="com.techhue.DatabaseSkeleton.MySearchSuggestionsContentProvider"
+53-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:49:13-63
+54            android:authorities="com.techhue.skeletonsearchabledatabaseprovider" />
+54-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:50:13-81
+55        <provider
+55-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:51:9-53:70
+56            android:name="com.techhue.DatabaseSkeleton.MyHoardContentProvider"
+56-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:52:13-51
+57            android:authorities="com.techhue.hoardcontentprovider" />
+57-->D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:53:13-67
+58    </application>
+59
+60</manifest>

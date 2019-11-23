@@ -1,0 +1,113 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:2:1-57:12
+	package
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:9:22-77
+application
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:11:5-55:19
+	android:label
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:12:9-45
+activity#com.techhue.DatabaseSkeleton.DatabaseSkeletonActivity
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:14:9-22:20
+	android:label
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:16:13-45
+	android:name
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:15:13-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:20:27-74
+activity#com.techhue.DatabaseSkeleton.DatabaseSkeletonSearchActivity
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:25:9-38:20
+	android:label
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:27:13-43
+	android:launchMode
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:28:13-43
+	android:name
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:26:13-59
+intent-filter#action:name:android.intent.action.SEARCH+category:name:android.intent.category.DEFAULT
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:29:13-33:29
+action#android.intent.action.SEARCH
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:30:17-71
+	android:name
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:30:25-68
+category#android.intent.category.DEFAULT
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:32:27-73
+meta-data#android.app.searchable
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:35:13-37:54
+	android:resource
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:37:17-51
+	android:name
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:36:17-54
+meta-data#android.app.default_searchable
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:41:9-43:63
+	android:value
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:43:13-60
+	android:name
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:42:13-58
+provider#com.techhue.DatabaseSkeleton.MyContentProvider
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:45:9-47:74
+	android:authorities
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:47:13-71
+	android:name
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:46:13-46
+provider#com.techhue.DatabaseSkeleton.MySearchSuggestionsContentProvider
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:48:9-50:84
+	android:authorities
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:50:13-81
+	android:name
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:49:13-63
+provider#com.techhue.DatabaseSkeleton.MyHoardContentProvider
+ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:51:9-53:70
+	android:authorities
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:53:13-67
+	android:name
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml:52:13-51
+uses-sdk
+INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android.Code5\Project.08\Project.08.01.DatabaseSkeleton\app\src\main\AndroidManifest.xml
